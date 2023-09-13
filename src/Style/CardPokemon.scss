@@ -1,0 +1,12 @@
+.card-pokemon {
+  background-color: var(--color-1);
+  width: 300px;
+  padding: 5px;
+  border: solid 2px var(--color-4);
+  border-radius: 5px;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

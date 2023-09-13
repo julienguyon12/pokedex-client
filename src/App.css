@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap");
+.App {
+  font-family: var(--body-font);
+  background-color: var(--color-6);
+  color: var(--color-5);
+  position: relative;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--color-5);
+}
+input,
+textarea {
+  font-family: var(--body-font);
+  color: var(--color-5);
+}
+:root {
+  /* color */
+  --color-1: #ffffff;
+  --color-2: rgb(10, 196, 210);
+  --color-2-hover: rgb(2, 172, 184);
+  --color-3: #84cb6c;
+  --color-3-hover: #6bb553;
+  --color-4: rgb(149, 146, 146);
+  --color-5: #252525;
+  --color-6: #f0f0f0;
+  --color-7: red;
+  --color-8: rgb(133, 132, 132);
+  /* font */
+  --body-font: "Quicksand", "Sans-serif";
+  /* transition */
+  --main-transition: all 0.5s ease-out;
+  --hover-transition: all 0.7s ease-out;
+}

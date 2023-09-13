@@ -1,0 +1,11 @@
+.home {
+  min-height: 100vh;
+  padding: 20px;
+  .pokedex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}
