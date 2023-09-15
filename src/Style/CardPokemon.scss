@@ -4,6 +4,17 @@
   padding: 5px;
   border: solid 2px var(--color-4);
   border-radius: 5px;
+  .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .container-icon button {
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
   img {
     display: block;
     margin-left: auto;

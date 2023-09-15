@@ -30,10 +30,10 @@ textarea {
   /* color */
   --color-1: #ffffff;
   --color-2: rgb(10, 196, 210);
-  --color-2-hover: rgb(2, 172, 184);
+  --color-2-hover: #02acb8;
   --color-3: #84cb6c;
   --color-3-hover: #6bb553;
-  --color-4: rgb(149, 146, 146);
+  --color-4: #959292;
   --color-5: #252525;
   --color-6: #f0f0f0;
   --color-7: red;

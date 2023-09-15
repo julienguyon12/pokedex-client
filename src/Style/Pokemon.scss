@@ -1,0 +1,10 @@
+.pokemon {
+  min-height: 100vh;
+  padding: 10px;
+  .container-card-pokemon {
+    height: calc(100vh - 65px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
