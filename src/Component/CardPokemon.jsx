@@ -9,7 +9,7 @@ import { AppContext } from "../App";
 
 export default function CardPokemon({ item, action }) {
   const { token } = useContext(AppContext);
-  const deleteHandler = (e, url) => {
+  const deletePokemon = (e, url) => {
     e.preventDefault();
     axios
       .delete(url, {
@@ -40,7 +40,7 @@ export default function CardPokemon({ item, action }) {
           <div className="container-icon">
             <button
               onClick={(e) =>
-                deleteHandler(
+                deletePokemon(
                   e,
                   `https://api-pokedex-d61l.onrender.com/api/pokemons/${item.id}`
                 )
